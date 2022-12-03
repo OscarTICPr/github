@@ -4,10 +4,11 @@
 }
 body{
     font-family: 'Noto Sans TC', sans-serif;
+    padding: 90px 20px 0;
 }
 .header {
     background-color: deepskyblue;
-    height:  80px;
+    line-height:  80px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -32,3 +33,20 @@ body{
     margin-right: 40px;
     list-style: none;
 }
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+.nav-menu-link:hover{
+    background-color: aqua;
+    transition: 0.5s;
+}
+
+
