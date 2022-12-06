@@ -17,6 +17,8 @@ body{
 .nav{
     display: flex;
     justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
 }
 .nav-link{
     color: white;
@@ -49,4 +51,10 @@ body{
     transition: 0.5s;
 }
 
-
+.nav-toggle{
+    color: white;
+    background-color: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+}
